@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Calculadora HTML</title>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="calculadora.css"/>
+    <script src="calculadora.js"></script>
+</head>
+
+<body>
+    <p>Calculadora HTML</p>
+    <div class="calculadora">
+        <div class="grid-container">
+            <div id="idDisplay" class="display"></div>
+            <div class="botao-quadrado" onclick="inserir('7')">7</div>
+            <div class="botao-quadrado" onclick="inserir('8')">8</div>
+            <div class="botao-quadrado" onclick="inserir('9')">9</div>
+            <div class="botao-quadrado" onclick="inserir('+')">+</div>
+            <div class="botao-quadrado" onclick="inserir('4')">4</div>
+            <div class="botao-quadrado" onclick="inserir('5')">5</div>
+            <div class="botao-quadrado" onclick="inserir('6')">6</div>
+            <div class="botao-quadrado" onclick="inserir('-')">-</div>
+            <div class="botao-quadrado" onclick="inserir('1')">1</div>
+            <div class="botao-quadrado" onclick="inserir('2')">2</div>
+            <div class="botao-quadrado" onclick="inserir('3')">3</div>
+            <div class="botao-quadrado" onclick="inserir('*')">*</div>
+            <div class="botao-zero" onclick="inserir('0')">0</div>
+            <div class="botao-igual" onclick="calcular()">=</div>
+            <div class="botao-quadrado" onclick="inserir('.')">,</div>
+            <div class="botao-quadrado" onclick="inserir('/')">/</div>
+            <div class="botao-ac" onclick="limpar()">AC</div>
+        </div>
+    </div>
+</body>
+
+</html>
